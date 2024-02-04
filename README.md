@@ -15,6 +15,7 @@ If you are interested, please vote in discussions
   - AC fan only mode
   - Audio volume (audio volume is now a number entity instead of sensor)
   - Oven Operating State
+  - Add Support for new FamilyHub Refrigerator models
  
 ## Added features:
   - AC Preset modes
