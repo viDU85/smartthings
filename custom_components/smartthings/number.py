@@ -72,7 +72,7 @@ async def async_setup_entry(hass, config_entry, async_add_entities):
             and device.type == "OCF"
         ):
             model = device.status.attributes[Attribute.mnmo].value.split("|")[0]
-            if model in ("21K_REF_LCD_FHUB6.0", "ARTIK051_REF_17K", "22K_REF_LCD_FHUB7.0", "23K_REF_LCD_FHUB8.0"):
+            if model in ("21K_REF_LCD_FHUB6.0", "ARTIK051_REF_17K", "22K_REF_LCD_FHUB7.0", "23K_REF_LCD_FHUB8.0", "24K_REF_LCD_FHUB9.0"):
                 numbers.extend(
                     [
                         SamsungOcfTemperatureNumber(
